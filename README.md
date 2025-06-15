@@ -72,6 +72,17 @@ It may also be useful to alias the `butterfish` command to something shorter. If
 alias bf="butterfish"
 ```
 
+## Python Setup
+
+Some utilities in this repository are written in Python. After activating your
+virtual environment, install the dependencies with:
+
+```bash
+uv pip install -r requirements.txt
+# or
+pip install -r requirements.txt
+```
+
 ## Shell Mode
 
 How does this work? Shell mode _wraps_ your shell rather than replacing it.
