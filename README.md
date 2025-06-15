@@ -83,6 +83,17 @@ uv pip install -r requirements.txt
 pip install -r requirements.txt
 ```
 
+## gpt4-script.py
+
+`gpt4-script.py` is a small helper that sends your prompt to an online API and
+prints the suggested shell command. Run it like so:
+
+```bash
+./gpt4-script.py "echo hello"
+```
+
+You will need Python and the `requests` package installed for it to work.
+
 ## Shell Mode
 
 How does this work? Shell mode _wraps_ your shell rather than replacing it.
